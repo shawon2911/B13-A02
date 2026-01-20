@@ -225,3 +225,61 @@ nav ul li a{
     color: rgb(204, 204, 204);
 }
 /* about part css end */
+
+
+
+/* choose part css start */
+    #choose, .choose-container{
+        background-color: #230E3D;
+        padding: 40px 0;
+    }
+    .choose-container h2{
+        font-weight: 700 ;
+        font-size: 3rem;
+        color: white;
+        margin-bottom: 40px;
+    }
+    
+    .choose-card{
+        
+        background-color: rgba(53, 17, 101, 0.4);
+        border-radius: 40px;
+        padding:60px 30px ;
+    }
+    .choose-card h4{
+        color: white;
+        font-weight: 700;
+        font-size:1.5rem ;
+        margin: 17px 0;
+    }
+    .choose-card p{
+        color: rgb(151, 149, 149);
+        font-weight: 400;
+        font-size:1rem ;
+        margin: 8px 0;
+        line-height: 30px;
+    }
+    .headphone{
+        grid-area: headphone;
+    }
+    .mobile{
+        grid-area: mobile;
+    }
+    .location{
+        grid-area: location;
+    }
+    .message{
+        grid-area: message;
+    }
+    .resource{
+        grid-area: resource;
+    }
+    .all-card-box{
+        display: grid;
+        gap: 30px;
+        grid-template-areas:
+            "headphone mobile mobile"
+            "headphone location location"
+            "message message resource" ;
+    }
+/* choose part css end */
