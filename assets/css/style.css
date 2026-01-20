@@ -616,11 +616,33 @@ nav ul {
     font-size: 2rem;
     
 }
-
 /* about */
+
     
     
+/*choose   */
+.choose-container h2 {
+    margin-bottom: 25px;
+}
+.all-card-box {
+    display: grid;
+    gap: 30px;
+    grid-template-areas: 
+        "headphone "
+         "mobile"
+         "location"
+         "message"
+         "resource"   ;
+}
+.choose-card {
+    padding: 36px 16px;
+}
+
     
+    
+
+
+/*choose   */
     
    
     
