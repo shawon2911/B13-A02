@@ -23,6 +23,11 @@ h1,h2,h3,h4,h5,h6,ul,ol,li,a,span{
 .direction{
     flex-direction: column;
 }
+.title{
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+}
 /* reusable code  */
 
 
@@ -192,9 +197,6 @@ nav ul li a{
 }
 
 .about-txt h3{
-    font-weight: 700;
-    font-size: 3rem;
-    color: white;
     margin-bottom: 12px;
 }
 .about-txt p{
@@ -234,9 +236,6 @@ nav ul li a{
         padding: 40px 0;
     }
     .choose-container h2{
-        font-weight: 700 ;
-        font-size: 3rem;
-        color: white;
         margin-bottom: 40px;
     }
     
@@ -283,3 +282,64 @@ nav ul li a{
             "message message resource" ;
     }
 /* choose part css end */
+
+
+/* feature part css start */
+#feature, .feature-container{
+    background-color: #1A0B2E;
+    padding: 40px 0;
+}
+.feature-container h2{
+    margin-bottom: 15px;
+}
+.video-card{
+    width: 380px;
+    height: auto;
+    background-color: #250D44;
+    border-radius: 20px;
+    
+    
+}
+.video-card iframe{
+    width: 100%;
+    height: 236px;
+    border-radius: 20px;
+}
+.video-card h4{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    margin: 20px 0;
+}
+.video-card p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(179, 177, 177);
+    line-height: 25px;
+}
+.video-txt{
+    padding: 20px 20px 40px 20px;
+     
+}
+.video-time{
+     display: flex;
+     justify-content: start;
+     gap: 10px;
+     margin-top: 10px;
+}
+.video-time img{
+    height: 20px;
+    width: 20px;
+}
+.video-time p{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #00FF88;
+}
+.youtube-video{
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}   
+    
+/* feature part css  end */
