@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,li,a,span{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+/* navbar css start */
+header{
+    background-color: #1A0B2E;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.nav-logo h3{
+    color: #FFFFFF;
+    font-size: 2.5rem;
+}
+.wave {
+  background: linear-gradient(90deg, #7F00FF, #E100FF, #00C6FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* future support */
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li a{
+    color: white;
+    margin-right: 40px; 
+    font-size: 1rem;
+    font-weight: 500;
+}
+.button{
+    height: 2.75rem;
+    width: 8.4rem;
+    background-color: #7F00FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10000PX;
+    padding: 3px 10px;
+    
+}
+.button a{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* navbar css end */
+
+
+/* banner css start */
+#banner{
+    background-image: url("../images/hero-bg.png");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+/* banner css end */
