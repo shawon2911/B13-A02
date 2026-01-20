@@ -20,6 +20,9 @@ h1,h2,h3,h4,h5,h6,ul,ol,li,a,span{
     justify-content: center;
     align-items: center;
 }
+.direction{
+    flex-direction: column;
+}
 /* reusable code  */
 
 
@@ -177,3 +180,48 @@ nav ul li a{
     color: green;
 }
 /* banner css end */
+
+
+/* about part css start */
+#about,
+.aobut-container{
+    background-color: #1A0B2E;
+}
+#about{
+    padding: 20px 0;
+}
+
+.about-txt h3{
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 12px;
+}
+.about-txt p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(204, 204, 204);
+    margin: 6px 0;
+}
+.about-txt .p-last{
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+.about-content{
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    justify-content: space-between;
+    padding: 30px 0;
+    margin: 30px 0;
+}
+.about-content .about-card h2{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #00FF88;
+}
+.about-content .about-card p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(204, 204, 204);
+}
+/* about part css end */
