@@ -14,6 +14,14 @@ h1,h2,h3,h4,h5,h6,ul,ol,li,a,span{
     margin: 0 auto;
 }
 
+/* reusable code  */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* reusable code  */
+
 
 /* navbar css start */
 header{
@@ -48,11 +56,9 @@ nav ul li a{
 .button{
     height: 2.75rem;
     width: 8.4rem;
-    background-color: #7F00FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10000PX;
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 0.95),rgba(145, 0, 248, 1));
+    
+    border-radius: 1000PX;
     padding: 3px 10px;
     
 }
@@ -60,6 +66,9 @@ nav ul li a{
     color: white;
     font-size: 1rem;
     font-weight: 500;
+}
+.button a i{
+    color: white;
 }
 
 /* navbar css end */
@@ -84,6 +93,22 @@ nav ul li a{
     position: absolute;
     left: 904px;
     top: 150px;
+}
+.banner-badge{
+    width: 75px;
+    height: 38px;
+    background-color: #00FF88;
+    border-radius: 1000px;
+    position: absolute;
+    left: 1039px;
+    top: 81px;
+
+}
+.banner-badge p{
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #1A0B2E;
+    
 }
 .banner-txt{
     position: absolute;
@@ -114,36 +139,41 @@ nav ul li a{
     margin-top: 25px;
 }
 .btn-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 5px;
     width: 201px;
     height: 44px;
-    background-color: transparent;
-    border: 1px solid green;
+    
     border-radius: 1000px;
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 0.95),rgba(145, 0, 248, 1));
 }
-.btn-1 a, i{
+.btn-1 a,
+.btn-1 i{
     font-weight: 600;
     font-size: 1rem;
-    color: green;
+    color: white;
 }
 .btn-2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 5px;
     width: 180px;
     height: 44px;
-    background-color: transparent;
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 0.95),rgba(145, 0, 248, 1));
     border: 1px solid green;
     border-radius: 1000px;
 }
 .btn-2 a, i{
     font-weight: 600;
     font-size: 1rem;
+    color: white;
+}
+.btn-1:hover,
+.btn-2:hover {
+    background: none;
+    border: 1px solid green;
+}
+.btn-1:hover a,
+.btn-1:hover i,
+.btn-2:hover a,
+.btn-2:hover i{
     color: green;
 }
-
 /* banner css end */
