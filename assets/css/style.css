@@ -473,6 +473,9 @@ nav ul li a{
 
 /* responsive for samll devide */
 @media screen and  (min-width: 0px) and (max-width: 575.98px) {
+
+/* header responsive */
+
 nav ul {
     display: none;
 }
@@ -491,6 +494,11 @@ nav ul {
     display: block;
     margin-right: 45px;
 }
+
+/* header responsive */
+
+
+/* banner */
 #banner{
     height: 300px;
     background-position: center top;
@@ -554,8 +562,8 @@ nav ul {
 }
 .btn-1 {
     
-    width: 152px;
-    height: 38px;
+    width: 148px;
+    height: 36px;
    
 }
 .btn-1 a, .btn-1 i {
@@ -565,8 +573,8 @@ nav ul {
 }
 .btn-2 {
     
-    width: 148px;
-    height: 38px;
+    width: 144px;
+    height: 36px;
     
 }
 .btn-2 a, i {
@@ -574,6 +582,42 @@ nav ul {
     font-size: 14px;
    
 }
+/* banner */
+
+
+
+
+/* about */
+.title {
+    font-weight: 400;
+    font-size: 2rem;
+    
+}
+.about-txt p {
+    font-weight: 300;
+    font-size: 14px;
+    padding: 0 20px;
+    margin: 2px 0;
+}
+.about-txt .p-last {
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+.about-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 17px;
+    row-gap: 14px;
+    padding: 21px 20px;
+    margin: 23px 0;
+}
+.about-content .about-card h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    
+}
+
+/* about */
     
     
     
