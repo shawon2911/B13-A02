@@ -13,6 +13,9 @@ h1,h2,h3,h4,h5,h6,ul,ol,li,a,span{
     max-width: 1280px;
     margin: 0 auto;
 }
+.sm-device-img{
+    display: none;
+}
 
 /* reusable code  */
 .flex{
@@ -457,3 +460,125 @@ nav ul li a{
 }
 
 /* footer part end */
+
+
+
+
+.hide{
+    display: none;
+}
+
+
+
+
+/* responsive for samll devide */
+@media screen and  (min-width: 0px) and (max-width: 575.98px) {
+nav ul {
+    display: none;
+}
+.nav-logo h3 {
+    color: #FFFFFF;
+    font-size: 1.75rem;
+    margin-left: 22px;
+}
+.button a {
+    display: none;
+}
+.button{
+    display: none;
+}
+.sm-device-img{
+    display: block;
+    margin-right: 45px;
+}
+#banner{
+    height: 300px;
+    background-position: center top;
+}
+.circle-image{
+    left: 118px;
+    top: 34px;
+}
+.circle-image img{
+    height: 125px;
+    width: 125px;
+}
+.mic-image{
+    left: 160px;
+    top: 66px;
+}   
+.mic-image img{
+    height: 58px;
+    width: 41px;
+}
+.banner-badge{
+    
+    width: 55px;
+    height: 28px;
+    left: 199px;
+    top: 43px;
+}
+.banner-badge p {
+    font-weight: 500;
+    
+}
+.banner-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    left: 0;
+    bottom: 0;
+}
+.banner-txt h3 {
+    font-weight: 700;
+    font-size: 2rem;
+    
+}  
+.banner-txt p {
+    font-weight: 200;
+    font-size: 12px;
+    padding:0 10px;
+    
+    margin-top: 10px;
+}
+.banner-txt p span{
+    padding: 0 120px;
+}
+.banner-btn {
+    
+    
+    margin-top: 12px;
+    
+    padding-bottom: 10px;
+}
+.btn-1 {
+    
+    width: 152px;
+    height: 38px;
+   
+}
+.btn-1 a, .btn-1 i {
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+.btn-2 {
+    
+    width: 148px;
+    height: 38px;
+    
+}
+.btn-2 a, i {
+    font-weight: 400;
+    font-size: 14px;
+   
+}
+    
+    
+    
+    
+   
+    
+}
+/* responsive for samll devide */
